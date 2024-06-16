@@ -178,7 +178,7 @@ Name = <string> - The name of the section.
 MVSD:AddButton({
 	Name = "Hitbox",
 	Callback = function()
-      		_G.HeadSize = 15
+      		_G.HeadSize = 8
 _G.Disabled = true
  
 game:GetService('RunService').RenderStepped:connect(function()
