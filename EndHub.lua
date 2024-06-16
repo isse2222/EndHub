@@ -203,7 +203,7 @@ local MVSD = MVSD:AddSection({
 --[[
 Name = <string> - The name of the section.
 ]]
-MSVD:AddButton({
+MVSD:AddButton({
 	Name = "TRASH HITBOX",
 	Callback = function()
                loadstring(game:HttpGet("https://raw.githubusercontent.com/isse2222/MVSD/main/MVSD.lua"))()
