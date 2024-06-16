@@ -156,35 +156,7 @@ Bedwars:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
-local CaliShootout = Window:MakeTab({
-	Name = "CaliShootout",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
-local CaliShootout = CaliShootout:AddSection({
-	Name = "CaliShootout"
-})
-
---[[
-Name = <string> - The name of the section.
-]]
-Tab:AddButton({
-	Name = "AirHub",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
-  	end    
-})
-
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 local MVSD = Window:MakeTab({
 	Name = "MVSD",
 	Icon = "rbxassetid://4483345998",
