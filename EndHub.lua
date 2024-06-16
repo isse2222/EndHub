@@ -185,3 +185,32 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+local MVSD = Window:MakeTab({
+	Name = "MVSD",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local MVSD = MVSD:AddSection({
+	Name = "MVSD"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+MSVD:AddButton({
+	Name = "TRASH HITBOX",
+	Callback = function()
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/isse2222/MVSD/main/MVSD.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
